@@ -128,4 +128,26 @@
             </skip>
         </annotations>
     </test>
+ 
+    <test name="AdminCreateSimpleProductWithDefaultSourceTest">
+        <annotations>
+            <skip>
+                <issueId value="MSI-1631"/>
+            </skip>
+        </annotations>
+    </test>
+     <test name="AdminCreateSimpleProductOnSingleStockModeTest">
+        <annotations>
+            <skip>
+                <issueId value="MSI-1631"/>
+            </skip>
+        </annotations>
+    </test>
+     <test name="AdminCreateVirtualProductOnSingleStockModeTest">
+        <annotations>
+            <skip>
+                <issueId value="MSI-1631"/>
+            </skip>
+        </annotations>
+    </test>
 </tests>
